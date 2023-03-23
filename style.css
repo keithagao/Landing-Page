@@ -1,0 +1,153 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: brown;
+    height: 100vh;
+    
+}
+
+header, footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1f2937; 
+    padding: 10px;
+    font-size: 24px;
+    
+}
+
+header .image_logo a{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    color: #f9faf8;
+    
+}
+.logo{
+    height: 2em;
+    width: auto;
+}
+
+header .navigation ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+header .navigation ul li{
+    list-style: none;
+}
+
+header .navigation ul li a{
+    text-decoration: none;
+    color: #f9faf8;
+}
+
+.first_section{
+    display: flex;
+    flex: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 200px;
+    background-color: #1f2937;
+    
+    
+}
+
+.first_section .first_left{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.left_header{
+    font-size: 48px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+
+.left_context{
+    display: flex;
+    flex: wrap;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+#sign_up{
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    padding: 5px;
+    background-color: #3882f6;
+    color: #f9faf8;
+}
+.first_right{
+    background-color: #e5e7eb;
+}
+.right_image{
+    width: 200px;
+    height: 20%;
+}
+
+.second_section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 20px 50px;
+}
+.second_section .second_top{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: bolder;
+}
+
+.second_bottom{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+
+.second_section .second_bottom .img_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+    text-align: center;
+    flex-wrap: wrap;
+    width: 200px;
+    margin: 30px;
+}
+
+.image_content{
+    width: 200px;
+    height: auto;
+    border: solid #3882f6;
+}
+
+.third_section{
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    padding: 100px;
+}
+
+.third_section .qoute{
+    font-size: 36px;
+    font-style: italic;
+}
+.author{
+    display: flex;
+    flex-direction: row-reverse;
+    font-weight: bolder;
+    font-size: 26px;
+}
